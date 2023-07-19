@@ -351,7 +351,7 @@ footer{
     line-height: normal;
 }
 .footer-nav{
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
 
 }
@@ -359,6 +359,7 @@ footer{
     display: flex;
     justify-content: space-evenly; /* space-evenly aligns the list items */
     text-align: center;
+    gap: 10px
 }
 .foooter-social  li,
 .footer-nav li {
@@ -384,9 +385,9 @@ footer{
     margin-bottom: 15px;
 }
 .footer-terms{
-    width: 50%;
+    width: 60%;
     margin: 10px auto;
-    display: content;
+    
 }
 .footer-terms ul {
     display: flex;
