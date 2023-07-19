@@ -4,27 +4,64 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
-
-header {
-    padding: 3.125rem 12.5%; /* 15rem/1920 */
+.gradiant-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pink-text-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-primary{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    box-sizing: content-box;
+}
+.btn-secondary{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    box-sizing: content-box;
 }
 
 nav {
+    padding: 10px 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px; 
     background-color: #fff;
     height: 8.125rem;
+    margin-bottom: 1px;
+
 }
 
 nav ul {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 nav li {
     list-style: none;
-    margin-right: 1.875rem;
+    margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
     color: #3C354F;
@@ -32,7 +69,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: #424242;
+    color: #3C354F;
 }
 
 .nav-title{
@@ -50,17 +87,168 @@ nav li a {
     padding: 10px 24px; /* 17px/1920 */
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    
+ 
+}
+ .banner-containar{
+    display: flex;
+    align-items: center;
+    background-image: url('./images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right 100% bottom 100%;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 20px 12%;
+ }
+.bannar-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-text-containar h2{
+    text-align: center;
+    font-size: 5.9375rem;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+ .banner-text-containar ul{
+    list-style: none;
+ }
+ .banner-text-containar li{
+    margin-bottom: 15px;
+ }
+.banner-img-containar img{
+    max-width: 100%;
+    height: auto;
+  }
+
+.gamer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 12%;
+}
+.gamer-img-containar{
+    width: 50%;
+}
+.gamer-img-containar img {
+    width: 100%;
+    margin: auto;
 }
 
-@media screen and (max-width: 576px) {
-    nav{
-        flex-direction: column;
-    }
+.gamer-text-container{
+    text-align: right;
+    width: 50%;
+    margin: auto;
+
+}
+.gamer-text-container h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    nav{
-        flex-direction: column;
-    }
+.gamer-text-container p{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 2.8125rem;
 }
+
+
+.gamer-text-container h3{
+    color: #534C64;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.8125rem;
+    margin-top: 2.8125rem;
+
+}
+.gamer-text-container span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.videos-containar{
+    display: block;
+    padding: 7.5rem 12%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.videos-containar h2{
+    color: #0B0223;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.videos-containar p{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+    margin-bottom: 3rem;
+}
+.cards-containar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card{
+    width: 19rem; 
+    display: flex;
+    flex-direction: column;
+}
+.card-image-containar{
+    width: 100%;
+}
+.card-image img{
+    width: 100%;;
+    height: auto;
+}
+.play-btn{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    display: none;
+    color: #fff;
+}
+.play-btn img{
+    width: 3rem;
+    height: 3rem;
+}
+.play-btn p{
+    color: #FFF;
+}
+
+.card-text{
+    text-align: start;
+    color: #534C64; 
+    font-size: 20px; 
+    font-weight: 500; 
+    line-height: 30px; 
+    word-wrap: break-word;
+}
+
+
+.card-image:hover{
+    filter: grayscale(60%);
+
+}
+
+.card-image:hover  .play-btn{
+    display: block;
+} 
