@@ -303,23 +303,24 @@ nav li a {
 
 }
 .games-containar{
-    padding: 10px 5%;
+    padding: 10px 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    margin-top: 1.25rem;
     
     
 }
 .game-card{
     width: max-content;
     background-color: #FFF;
-    padding 10px;
+    padding: 10px;
     border-radius: 50px;
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
@@ -335,4 +336,78 @@ nav li a {
     border: 1px solid #FF42A5;
     color: #FF42A5;
     box-sizing: border-box;
+}
+
+footer{
+    background-color: #0B0223;;
+    color: #FFF;
+    padding:120px 12%;
+}
+.footer-title{
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-nav{
+    width: 50%;
+    margin: 20px auto;
+
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: space-evenly; /* space-evenly aligns the list items */
+    text-align: center;
+}
+.foooter-social  li,
+.footer-nav li {
+    list-style: none;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.foooter-social  li a,
+.footer-nav  li a {
+    text-decoration: none;
+}
+.foooter-social{
+    width: 50%;
+    margin: 10px auto;
+}
+.foooter-social ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.footer-terms{
+    width: 50%;
+    margin: 10px auto;
+    display: content;
+}
+.footer-terms ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.footer-terms li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-terms li a {
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
 }
