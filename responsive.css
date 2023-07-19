@@ -7,6 +7,7 @@
     {
         flex-direction: column;
     }
+    .feature-containar,
    .banner-containar{
     flex-direction: column-reverse;
     background-image: none;
@@ -54,7 +55,10 @@ nav{
     right: 40%;
     
 }
-
+.feature-text{
+    width: 80%;
+    text-align: center;
+}
 }
 
 
@@ -67,9 +71,10 @@ nav{
     {
         flex-direction: column;
     }
+    .feature-containar,
     .banner-containar{
-        flex-direction: column-reverse;
-        background-image: none;
+     flex-direction: column-reverse;
+     background-image: none;
     }
     .banner-text-containar{
         background-image: url('./images/Group\ 14.png');
@@ -113,6 +118,10 @@ nav{
         top: 50%;
         right: 40%;
         
+    }
+    .feature-text{
+        width: 80%;
+        text-align: center;
     }
 
 }
