@@ -52,8 +52,8 @@
         height: 80%;
     }
     .play-btn{
-        top: 50%;
-        right: 40%;
+        top: 40%;
+        right: 35%;
         
     }
     .feature-text{
@@ -73,6 +73,11 @@
         /* flex-direction: column; */
 
         
+    }
+    .feature-image-sticker{
+        top: 0%;
+        left: 50%;
+       
     }
 
     .footer-nav ul{
