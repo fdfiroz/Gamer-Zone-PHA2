@@ -39,16 +39,16 @@
     .cards-containar{
         justify-content: center;
         align-items: center;
-        gap: 80px;
 
     }
     .card{
-        width: 30rem;
-        height: 560.331px;
+        width: 20rem;
+        height: auto;
 
     }
     .card-image img{
         width: 100% ;
+        height: 80%;
     }
     .play-btn{
         top: 50%;
@@ -59,7 +59,35 @@
         width: 80%;
         text-align: center;
     }
-
+    /* .games-containar{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin: 20px auto;
+    } */
+    .footer-nav ul{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer-social ul{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        justify-content: center;
+        gap: 50px;
+    }
+    .footer-terms ul{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        justify-content: center;
+        gap: 20px;
+    }
    
 }
 
@@ -126,6 +154,37 @@
         width: 80%;
         text-align: center;
     }
-    
-    
+    .games-containar{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin: 20px auto;
+        justify-items: center;  
+    }
+    .footer-nav{
+        width: 50%;
+    }
+    .footer-nav ul{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer-social ul{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        justify-content: center;
+        gap: 50px;
+    }
+    .footer-terms ul{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        justify-content: center;
+        gap: 20px;
+    }
 }
