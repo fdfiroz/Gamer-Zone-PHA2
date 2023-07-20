@@ -36,6 +36,7 @@
         width: 100%;
         
     }
+    
     .cards-containar{
         justify-content: center;
         align-items: center;
@@ -59,12 +60,21 @@
         width: 80%;
         text-align: center;
     }
-    /* .games-containar{
+    .feature-image-sticker{
+        height: auto;
+    }
+    .games-containar{
+        /* max-width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    
         justify-content: center;
-        margin: 20px auto;
-    } */
+        align-content: center;        */
+        /* flex-direction: column; */
+
+        
+    }
+
     .footer-nav ul{
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
