@@ -322,11 +322,12 @@ nav li a {
 
 .game-card{
     max-width: auto;
-    padding: 1px ;
+    padding: 5px ;
     /* height: 80px;  */
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     text-align: center;
     /* position: relative; */
     color: #000; 
